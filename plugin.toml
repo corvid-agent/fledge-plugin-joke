@@ -1,0 +1,17 @@
+[plugin]
+name = "joke"
+version = "1.1.0"
+description = "Display random programming jokes in the terminal"
+author = "corvid-agent"
+license = "MIT"
+repository = "https://github.com/corvid-agent/fledge-plugin-joke"
+keywords = ["joke", "humor", "fun", "programming", "dev"]
+min_fledge_version = "0.10.0"
+
+[plugin.commands.random]
+description = "Show a random programming joke"
+usage = "fledge joke random [--category <CATEGORY>]"
+
+[plugin.commands.categories]
+description = "List available joke categories"
+usage = "fledge joke categories"
